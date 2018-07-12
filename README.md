@@ -1,2 +1,2 @@
 # golang_blog
-##note of learning golang 
+## note of learning golang 
