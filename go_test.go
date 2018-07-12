@@ -22,3 +22,9 @@ func test2() (a int32,b int32) {
 	b=4
 	return
 }
+
+//-----------------------------执行的结果---------------------------------
+1--2
+3--4
+Process finished with exit code 0
+
