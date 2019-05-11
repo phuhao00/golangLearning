@@ -29,3 +29,24 @@ fmt.Println(ll)
 huhao
 false
 ```
+
+
+
+
+
+
+
+
+
+```go
+package main
+
+import "fmt"
+
+var ttt =map[int32]bool{	//不需要这样子 var ttt map[int32]bool=map[int32]bool
+   8:true,
+}
+func main()  {
+   fmt.Println(ttt[9])
+}
+```
