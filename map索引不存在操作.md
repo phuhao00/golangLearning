@@ -43,7 +43,7 @@ package main
 
 import "fmt"
 
-var ttt =map[int32]bool{	//不需要这样子 var ttt map[int32]bool=map[int32]bool
+var ttt =map[int32]bool{	Normal
    8:true,
 }
 func main()  {
