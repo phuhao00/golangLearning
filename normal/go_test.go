@@ -1,4 +1,4 @@
-package awesomeProject
+package normal
 
 import (
 	"testing"

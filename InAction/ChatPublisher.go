@@ -1,4 +1,4 @@
-package WorldMapServer
+package InAction
 
 type publisher_interface interface {
 	BroadCast_Mode(int64,interface{})

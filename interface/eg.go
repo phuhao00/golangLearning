@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-type iface interface {
+type iface_eg interface {
 	a ()int
 	b ()
 }
 
 type im struct {
-	real iface
+	real iface_eg
 }
 
 func (*im)a()int  {

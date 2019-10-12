@@ -1,4 +1,4 @@
-package TestSaveDB_LoadDB
+package DB
 
 //
 func ExampleTestStruct_SaveDB() {

@@ -1,4 +1,4 @@
-package TestSaveDB_LoadDB
+package DB
 import  "github.com/json-iterator/go"
 var json = jsoniter.ConfigCompatibleWithStandardLibrary
 
