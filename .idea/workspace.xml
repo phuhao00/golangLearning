@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88f272b1-55a0-4fdf-93e5-59d7228b8c69" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mogodb/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/inject.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/inject_struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/inject_struct_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/inject_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/iota.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/iota_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/system/some_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
