@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="88f272b1-55a0-4fdf-93e5-59d7228b8c69" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/20201029/channel.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gin/response_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectA/assert_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectA/mm_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectA/slice_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rand/rand.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rand/rand_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt/atomic_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt/select_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/break_goto_return/goto.go" beforeDir="false" afterPath="$PROJECT_DIR$/break_goto_return/goto_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slice/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice/test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" path="D:/dev" />
+  <component name="GOROOT" path="D:/go_sdk" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -49,7 +81,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -60,131 +92,146 @@
       <recent name="F:\HA\golangLearn\golangLearning\interface" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestInjectStruct in golalearning/system">
-    <configuration name="TestCacthPlus in golalearning/system" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSlice in demo">
+    <configuration name="TestAssert in demo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golangLearning" />
-      <working_directory value="$PROJECT_DIR$/system" />
+      <working_directory value="$PROJECT_DIR$/projectA" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="golalearning/system" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestCacthPlus$" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestAssert\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestDeferCatch in golalearning/system" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBasicTypes in demo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golangLearning" />
-      <working_directory value="$PROJECT_DIR$/system" />
+      <working_directory value="$PROJECT_DIR$/projectA" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="golalearning/system" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestDeferCatch$" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestBasicTypes\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInject in golalearning/system" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFib in demo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golangLearning" />
-      <working_directory value="$PROJECT_DIR$/system" />
+      <working_directory value="$PROJECT_DIR$/projectA" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="golalearning/system" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInject$" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestFib\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInjectStruct in golalearning/system" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMap in demo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golangLearning" />
-      <working_directory value="$PROJECT_DIR$/system" />
+      <working_directory value="$PROJECT_DIR$/projectA" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="golalearning/system" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInjectStruct$" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestMap\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestInternal in golalearning/system" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSlice in demo" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="golangLearning" />
-      <working_directory value="$PROJECT_DIR$/system" />
+      <working_directory value="$PROJECT_DIR$/projectA" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="golalearning/system" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestInternal$" />
+      <package value="demo" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSlice\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestInjectStruct in golalearning/system" />
-        <item itemvalue="Go Test.TestInject in golalearning/system" />
-        <item itemvalue="Go Test.TestCacthPlus in golalearning/system" />
-        <item itemvalue="Go Test.TestDeferCatch in golalearning/system" />
-        <item itemvalue="Go Test.TestInternal in golalearning/system" />
+        <item itemvalue="Go Test.TestSlice in demo" />
+        <item itemvalue="Go Test.TestAssert in demo" />
+        <item itemvalue="Go Test.TestFib in demo" />
+        <item itemvalue="Go Test.TestBasicTypes in demo" />
+        <item itemvalue="Go Test.TestMap in demo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88f272b1-55a0-4fdf-93e5-59d7228b8c69" name="Default Changelist" comment="" />
+      <created>1604651685082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604651685082</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="777" y="294" key="FileChooserDialogImpl" timestamp="1592380575258">
+    <state x="789" y="470" key="#GOROOT" timestamp="1604651725265">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state x="777" y="294" key="FileChooserDialogImpl/75.0.1845.1080@75.0.1845.1080" timestamp="1592380575258" />
-    <state width="1802" height="269" key="GridCell.Tab.0.bottom" timestamp="1592723947974">
+    <state x="789" y="470" key="#GOROOT/75.0.1845.1080@75.0.1845.1080" timestamp="1604651725265" />
+    <state width="1310" height="280" key="GridCell.Tab.0.bottom" timestamp="1604662432417">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.0.bottom/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429336" />
-    <state width="1802" height="269" key="GridCell.Tab.0.bottom/75.0.1845.1080@75.0.1845.1080" timestamp="1592723947974" />
-    <state width="1802" height="269" key="GridCell.Tab.0.center" timestamp="1592723947974">
+    <state width="1310" height="280" key="GridCell.Tab.0.bottom/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432417" />
+    <state width="1310" height="280" key="GridCell.Tab.0.center" timestamp="1604662432417">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.0.center/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429336" />
-    <state width="1802" height="269" key="GridCell.Tab.0.center/75.0.1845.1080@75.0.1845.1080" timestamp="1592723947974" />
-    <state width="1802" height="269" key="GridCell.Tab.0.left" timestamp="1592723947974">
+    <state width="1310" height="280" key="GridCell.Tab.0.center/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432417" />
+    <state width="1310" height="280" key="GridCell.Tab.0.left" timestamp="1604662432417">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.0.left/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429336" />
-    <state width="1802" height="269" key="GridCell.Tab.0.left/75.0.1845.1080@75.0.1845.1080" timestamp="1592723947974" />
-    <state width="1802" height="269" key="GridCell.Tab.0.right" timestamp="1592723947974">
+    <state width="1310" height="280" key="GridCell.Tab.0.left/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432417" />
+    <state width="1310" height="280" key="GridCell.Tab.0.right" timestamp="1604662432417">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.0.right/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429336" />
-    <state width="1802" height="269" key="GridCell.Tab.0.right/75.0.1845.1080@75.0.1845.1080" timestamp="1592723947974" />
-    <state width="1802" height="269" key="GridCell.Tab.1.bottom" timestamp="1592723948416">
+    <state width="1310" height="280" key="GridCell.Tab.0.right/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432417" />
+    <state width="1311" height="280" key="GridCell.Tab.1.bottom" timestamp="1604662432296">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.1.bottom/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429283" />
-    <state width="1802" height="269" key="GridCell.Tab.1.bottom/75.0.1845.1080@75.0.1845.1080" timestamp="1592723948416" />
-    <state width="1802" height="269" key="GridCell.Tab.1.center" timestamp="1592723948416">
+    <state width="1311" height="280" key="GridCell.Tab.1.bottom/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432296" />
+    <state width="1311" height="280" key="GridCell.Tab.1.center" timestamp="1604662432296">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.1.center/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429283" />
-    <state width="1802" height="269" key="GridCell.Tab.1.center/75.0.1845.1080@75.0.1845.1080" timestamp="1592723948416" />
-    <state width="1802" height="269" key="GridCell.Tab.1.left" timestamp="1592723948416">
+    <state width="1311" height="280" key="GridCell.Tab.1.center/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432296" />
+    <state width="1311" height="280" key="GridCell.Tab.1.left" timestamp="1604662432296">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.1.left/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429283" />
-    <state width="1802" height="269" key="GridCell.Tab.1.left/75.0.1845.1080@75.0.1845.1080" timestamp="1592723948416" />
-    <state width="1802" height="269" key="GridCell.Tab.1.right" timestamp="1592723948416">
+    <state width="1311" height="280" key="GridCell.Tab.1.left/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432296" />
+    <state width="1311" height="280" key="GridCell.Tab.1.right" timestamp="1604662432296">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state width="1805" height="239" key="GridCell.Tab.1.right/62.0.1858.1080/1982.0.1858.1080@1982.0.1858.1080" timestamp="1589360429283" />
-    <state width="1802" height="269" key="GridCell.Tab.1.right/75.0.1845.1080@75.0.1845.1080" timestamp="1592723948416" />
-    <state x="498" y="184" key="SettingsEditor" timestamp="1592708660065">
+    <state width="1311" height="280" key="GridCell.Tab.1.right/75.0.1845.1080@75.0.1845.1080" timestamp="1604662432296" />
+    <state x="498" y="184" key="SettingsEditor" timestamp="1604660849452">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state x="498" y="184" key="SettingsEditor/75.0.1845.1080@75.0.1845.1080" timestamp="1592708660065" />
-    <state x="660" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1592714044308">
+    <state x="498" y="184" key="SettingsEditor/75.0.1845.1080@75.0.1845.1080" timestamp="1604660849452" />
+    <state x="577" y="194" key="editAsTableFormatDialogDimension" timestamp="1604660514857">
       <screen x="75" y="0" width="1845" height="1080" />
     </state>
-    <state x="660" y="235" width="672" height="678" key="search.everywhere.popup/75.0.1845.1080@75.0.1845.1080" timestamp="1592714044308" />
+    <state x="577" y="194" key="editAsTableFormatDialogDimension/75.0.1845.1080@75.0.1845.1080" timestamp="1604660514857" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/golangLearning$TestInject_in_golalearning_system.out" NAME="TestInject in golalearning/system Coverage Results" MODIFIED="1592723635127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
