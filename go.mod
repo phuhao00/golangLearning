@@ -12,11 +12,14 @@ require (
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-resty/resty/v2 v2.4.0
 	github.com/google/go-querystring v1.0.0 // indirect
+	github.com/google/wire v0.5.0
 	github.com/imkira/go-interpol v1.1.0 // indirect
 	github.com/json-iterator/go v1.1.10
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/kataras/iris/v12 v12.1.8
 	github.com/moul/http2curl v1.0.0 // indirect
+	github.com/panjf2000/ants/v2 v2.4.3
+	github.com/pelletier/go-toml v1.4.0 // indirect
 	github.com/rs/zerolog v1.20.0
 	github.com/sergi/go-diff v1.1.0 // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect
@@ -28,7 +31,6 @@ require (
 	github.com/yudai/gojsondiff v1.0.0 // indirect
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	github.com/yudai/pp v2.0.1+incompatible // indirect
-	go.mongodb.org/mongo-driver v1.3.4
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 )
