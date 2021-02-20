@@ -17,6 +17,7 @@ require (
 	github.com/json-iterator/go v1.1.10
 	github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88 // indirect
 	github.com/kataras/iris/v12 v12.1.8
+	github.com/minio/minio-go/v7 v7.0.9
 	github.com/moul/http2curl v1.0.0 // indirect
 	github.com/panjf2000/ants/v2 v2.4.3
 	github.com/pelletier/go-toml v1.4.0 // indirect
@@ -32,5 +33,6 @@ require (
 	github.com/yudai/golcs v0.0.0-20170316035057-ecda9a501e82 // indirect
 	github.com/yudai/pp v2.0.1+incompatible // indirect
 	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
+	golang.org/x/sys v0.0.0-20210119212857-b64e53b001e4 // indirect
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
 )

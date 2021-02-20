@@ -6,14 +6,16 @@ import (
 	"testing"
 )
 
-func TestOnceDo(t *testing.T)  {
+var once sync.Once
+
+func TestOnceDo(t *testing.T) {
 	for {
 		OneDot()
 	}
 }
 
-func OneDot()  {
-	var once sync.Once
+func OneDot() {
+
 	once.Do(func() {
 		fmt.Println("888")
 	})
